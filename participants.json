@@ -1,12 +1,40 @@
 {
   "participant_id": {
-    "Description": "Unique participant label"
+    "Description": "Unique participant label",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": "Participant ID"
+      },
+      "VariableType": "Identifier"
+    }
   },
   "Gender": {
     "Description": "Participant gender",
     "Levels": {
       "F": "Female",
       "M": "Male"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": "Sex"
+      },
+      "VariableType": "Categorical",
+      "Levels": {},
+      "MissingValues": [
+        "26",
+        "25",
+        "27",
+        "22",
+        "24",
+        "23",
+        "29",
+        "20",
+        "19",
+        "33",
+        "21"
+      ]
     }
   },
   "Age": {
